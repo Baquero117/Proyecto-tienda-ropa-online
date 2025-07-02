@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="diseños.css">
+    <title>Siro</title>
+</head>
+<div>
+    
+    <div class="container-fluid bg-dark py-auto px-4"> 
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+
+            <!-- Botón de menú redondo -->                                                                                                                                              
+            <button class="btn btn-outline-light p-2">
+                <i class="bi bi-list fs-auto"></i>
+            </button>
+
+            <!-- Logo centrado -->
+            <div class="logo-container mx-5">
+                <img src="fotos/street.png" width="85" height="70" alt="Logo" class="logo-img">
+            </div>
+
+            <!-- Búsqueda + iconos -->
+                    <div class="d-flex align-items-center gap-2">
+                        <!-- Buscador -->
+                        <div class="input-group bg-light rounded-pill px-2">
+                            <span class="input-group-text bg-transparent border-0">
+                                <i class="bi bi-search"></i>
+                            </span>
+                            <input type="text" class="form-control bg-light border-0" placeholder="Search">
+                        </div>
+
+                        <!-- Iconos -->
+                        <button class="btn icon-btn bg-light"><i class="bi bi-person"></i></button>
+                        <button class="btn icon-btn bg-light"><i class="bi bi-bag"></i></button>
+
+                        <!-- Botón filtrar -->
+                        <button class="btn btn-outline-light rounded-pill px-3">Filtrar</button>
+                    </div>
+
+        </div>
+    </div>
+
+    <div id="carouselExample" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner text-center bg-body-secondary">
+            
+                <div class="carousel-item active">
+                    <img src="fotos/1.jpg">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="fotos/2.jpg">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="fotos/3.jpg">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+    </div>
+
+    <div class="container-fluid bg-dark py-5 text-center text-light">
+
+        <div class="row">
+
+            <div class= "col-sm-12 col-md-12 col-lg-6 px-5">
+            <h2 class="fst-italic">Filtrar Por Precios</h2>
+            </div>
+
+            <button class="btn btn-outline-light rounded-pill btn-filtrar col-md-4 col-lg-2 px-3">$60.000</button>
+            <button class="btn btn-outline-light rounded-pill btn-filtrar col-md-4 col-lg-2 px-3">$90.000</button>
+            <button class="btn btn-outline-light rounded-pill btn-filtrar col-md-4 col-lg-2 px-3">120.000</button>
+
+
+        </div>
+
+    </div>
+
+            <div class="container-fluid mt-4 border-0">
+                <div class="row">
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        
+                        <img src="fotos/one.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Blanca</h5>
+                            <p class="card-text">$68,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/two.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Cafe</h5>
+                            <p class="card-text">84,999</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/three.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Mezclada</h5>
+                            <p class="card-text">$100,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/for.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Azul</h5>
+                            <p class="card-text">$115,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div c+lass="container-fluid mt-4 border-0">
+                <div class="row">
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        
+                        <img src="fotos/one.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Blanca</h5>
+                            <p class="card-text">$68,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/two.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Cafe</h5>
+                            <p class="card-text">84,999</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/three.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Mezclada</h5>
+                            <p class="card-text">$100,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/for.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Azul</h5>
+                            <p class="card-text">$115,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-fluid mt-4 border-0">
+                <div class="row">
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        
+                        <img src="fotos/one.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Blanca</h5>
+                            <p class="card-text">$68,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/two.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Cafe</h5>
+                            <p class="card-text">84,999</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/three.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Mezclada</h5>
+                            <p class="card-text">$100,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem; margin: auto;">
+                        <img src="fotos/for.jpg" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h5 class="fst-italic">Corta Vientos Azul</h5>
+                            <p class="card-text">$115,000</p>
+                            <a href="#" class="btn btn-primary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+            <div id="moda-section-gradient" class="container-fluid my-auto border-0 section-gradient-bg">
+                <h1 id="ofertas" class="my-5 text-center">¿¿¿OFERTAS ESPECIALES???</h1>
+
+                <div class="container-fluid py-3">
+                    <div class="row gx-5">
+
+                        <div class="col-12 col-md-8 col-sm-8 d-flex align-items-end position-relative main-jean-section x-5">
+                            <img src="fotos/koaj1.jpg" class="rounded-4 img-fluid h-100 object-fit-cover" alt="Jeans variados">
+                        </div>
+
+                        <div class="col-12 col-md-4 my-1">
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <div class="card jean-style-card rounded-4">
+                                        <img src="fotos/pantalon2.jpg" class="card-img-top object-fit-cover" alt="Push Up Jeans">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-6">
+                                    <div class="card jean-style-card rounded-4">
+                                        <img src="fotos/pantalon3.jpg" class="card-img-top object-fit-cover" alt="Straight Leg Jeans">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card jean-style-card rounded-4">
+                                        <img src="fotos/pantalon4.jpg" class="card-img-top object-fit-cover" alt="Slim Jeans">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card jean-style-card rounded-4">
+                                        <img src="fotos/pantalon1.jpg" class="card-img-top object-fit-cover" alt="90s Jeans">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div id="pie_de_pagina" class="container-fluid footer-section py-5 px-md-5">
+                <div class="row centered-row-content">
+                <div>
+                    <hr>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4 mb-md-0 text-center py-5"> 
+                    <h5 class="fw-bold mb-3 footer-title">Síguenos en</h5>
+                    <div class="d-flex social-icons-container p-0 justify-content-center"> 
+                        <a href="#" class="social-icon-circle"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon-circle"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon-circle"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="social-icon-circle"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3 footer-title text-center">Acerca de SRTEET</h5>
+                    <ul class="list-unstyled footer-links text-center">
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Formas de pago</a></li>
+                        <li><a href="#">Uso de Cookies</a></li>
+                        <li><a href="#">Nuestro Catálogo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h5 class="fw-bold mb-3 footer-title text-center">Información adicional</h5>
+                    <ul class="list-unstyled footer-links text-center">
+                        <li><a href="#">Política de Protección de Datos</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                        <li><a href="#">Registro</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </div>
+                <hr>
+
+                <footer style="text-align: center; padding: 20px;">
+                <p class="my-4">
+                    Sitio web creado por S.I.R.O. Derechos de autor © 2025. <br>
+                    Las imágenes utilizadas pertenecen a sus respectivos propietarios: Koaj® y Pull&Bear®. <br>
+                    Este sitio no tiene relación oficial con dichas marcas; las imágenes se usan con fines demostrativos y educativos.
+                </p>
+</footer>
+
+
+            </div>
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html> 

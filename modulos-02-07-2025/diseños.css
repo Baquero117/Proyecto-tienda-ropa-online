@@ -1,0 +1,194 @@
+.menu-btn,
+.filter-btn {
+  border-radius: 20px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+}
+
+#carouselExample-item{
+
+  width: 700px;
+    
+}
+
+#carouselExample .carousel-item img {
+  width: 600px;
+  height: 6dpx;
+  object-fit: cover; /*No deja que se deforme la imagen*/
+  display: block; /*Vuelve la imagen un bloque*/
+  margin: auto;
+}
+
+.button{
+    height: 20px;
+}
+
+.card-sm {
+  width: 12rem;
+  font-size: 0.85rem;
+}
+
+.card-sm .btn {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+}
+
+.card {
+  margin: 15px auto;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+  z-index: 1;
+}
+
+
+.main-jean-section img {
+  width: 700px;
+  height: 700px;
+  object-fit: cover; /*No deja que se deforme la imagen*/
+  display: block; /*Vuelve la imagen un bloque*/
+  margin: auto;
+
+}
+
+.main-jean-section img{
+  margin: 15px auto;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid rgba(255, 255, 255, 0.993);
+  box-shadow: 0 20px 20px rgba(92, 3, 80, 0.726);
+}
+
+.main-jean-section img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(92, 3, 80, 0.726);
+  z-index: 1;
+}
+
+.jean-style-card {
+  margin: 10px auto;
+  overflow: hidden;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0 10px 10px rgb(105, 2, 105);
+}
+
+.jean-style-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgb(102, 2, 80);
+  z-index: 1;
+}
+
+/* Estilos para el contenedor con el ID 'moda-section-gradient' */
+#moda-section-gradient {
+    /* Degradado de blanco (#FFFFFF) a un tono oscuro (#343a40) de arriba hacia abajo */
+    background-image: linear-gradient(to bottom, #ffffff, #000000);
+
+    /* Padding interno para que el degradado sea más visible */
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#moda-section-gradient h2 {
+    color: black; 
+}
+
+#pie_de_pagina{
+  background-color: #000000;
+}
+
+.hr{
+  background-color: #ffffff;
+}
+
+/* Nuevos estilos para la sección del pie de página */
+.footer-section {
+    background-color: black; /* Fondo negro como en la imagen */
+    color: white; /* Color de texto blanco por defecto */
+}
+
+.footer-section .footer-title {
+    color: white; /* Títulos en blanco */
+    font-size: 1.1rem; /* Ajusta el tamaño de la fuente si es necesario */
+    margin-bottom: 1rem; /* Espacio debajo de los títulos */
+}
+
+.footer-section .footer-links {
+    padding-left: 0; /* Elimina el padding por defecto de las listas no ordenadas */
+}
+
+.footer-section .footer-links li {
+    margin-bottom: 0.5rem; /* Espacio entre los elementos de la lista */
+}
+
+.footer-section .footer-links a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 0.95rem; 
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-section .footer-links a:hover {
+    color: #007bff; /* Color al pasar el ratón (puedes elegir otro, ej. #6c757d para un gris claro) */
+}
+
+.social-icons-container {
+    gap: 10px; /* Espacio entre los iconos de redes sociales */
+}
+
+.social-icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Tamaño del círculo */
+    height: 40px; /* Tamaño del círculo */
+    border-radius: 50%; /* Hace el círculo */
+    background-color: white; /* Fondo blanco para los círculos */
+    color: black; /* Color del icono */
+    font-size: 1.2rem; /* Tamaño del icono */
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.social-icon-circle:hover {
+    background-color: #f8f9fa; /* Color al pasar el ratón (blanco más claro) */
+    color: #343a40; /* Color del icono al pasar el ratón (oscuro) */
+}
+
+.sic-logos img {
+    max-width: 150px; /* Ajusta el tamaño máximo de los logos de la Superintendencia */
+    height: auto;
+    display: block; /* Para que cada imagen ocupe su propia línea */
+    margin-bottom: 10px; /* Espacio entre los logos SIC */
+}
+
+/* Media Queries para ajustar en pantallas pequeñas */
+@media (max-width: 767.98px) {
+    .footer-section .col-12 {
+        text-align: center; /* Centra el texto en móviles */
+    }
+    .social-icons-container {
+        justify-content: center; /* Centra los iconos en móviles */
+    }
+    .sic-logos {
+        text-align: center; /* Centra los logos SIC en móviles */
+    }
+    .sic-logos img {
+        margin-left: auto;
+        margin-right: auto; /* Centra los logos si son menores que el ancho del contenedor */
+    }
+} 
+
+#ofertas{
+  font-family: "Rubik Distressed", system-ui;
+}
